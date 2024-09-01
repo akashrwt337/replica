@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(16 ,100px);
+    grid-template-rows:repeat(10,100px) ;
+}
+.logo{
+    background-color: rgb(212, 212, 212);
+    grid-area: 1/1/2/4;
+    display: flex;
+    padding-left: 1rem;
+}
+.id{
+    background-color: rgb(212, 212, 212);;
+    grid-area: 2/1/4/4;
+    text-align: center;
+
+}
+.followbar{
+    background-color: rgb(212, 212, 212);;
+    grid-area: 4/1/5/4;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.taskbar{
+    background-color:  rgb(212, 212, 212);;
+    grid-area: 5/1/8/4;
+
+}
+.footer{
+    background-color: rgb(212, 212, 212);;
+    grid-area: 8/1/9/4;
+}
+.header{
+    background-color:rgb(255, 255, 255);
+    grid-area: 1/4/2/10;
+
+
+}
+.stories{
+    background-color:rgb(255, 255, 255);
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 10;
+}
+.feed1{
+    grid-area: 4/4/10/8;
+    background-color: rgb(255, 255, 255);
+
+
+}
+.feed2{
+    grid-area: 4/8/10/12;
+    background-color:rgb(255, 255, 255);
+}
+.feed3{
+    grid-area: 4/12/10/16;
+    background-color:rgb(255, 255, 255);
+}
+.home{
+    display: flex;
+    padding-left: 2rem;
+}
+.search{
+    display: flex;
+    padding-left: 2rem;
+}
+
+.Reels{
+    display: flex;
+    padding-left: 2rem; 
+}
+
+.Shopping{
+    display: flex;
+    padding-left: 2rem;
+}
+.Account{
+    display: flex;
+    padding-left: 2rem;
+}
+.Menu{
+    display: flex;
+    padding-left: 2rem;
+}
+.search{
+    padding-top: 2rem;
+    padding-left: 4rem;
+}
+
+.boderleft{
+    border-top-left-radius: 25% ;
+}
+.boderright{
+    border-top-right-radius: 25;
+    
+    
+} 
+.addphoto{
+    background-color: orange;
+    color: white;
+    
+}
